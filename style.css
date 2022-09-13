@@ -80,7 +80,7 @@ div {
 }
 
 input.submit-button {
-  background:url(https://storage.cloud.google.com/saer/GLOBAL%20PHARMA%20SERVICES/images/bouton%20valider.png) no-repeat;
+  background-image: url("https://storage.cloud.google.com/saer/GLOBAL%20PHARMA%20SERVICES/images/bouton%20valider.png") no-repeat;
   text-indent:-9999px;
   border:none;
   height:32px;
