@@ -90,6 +90,7 @@ input.submit-button {
   left:390px;
   cursor:pointer;
  right:15px;
+z-index:1;
 }
   
  
