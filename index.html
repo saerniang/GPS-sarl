@@ -54,12 +54,11 @@
   
                         <!-- barre de recherche -->
      
-      <form action="search.php" method="get" name="search">
-         <div class="search-box"><img class="search-icon2" src="https://storage.cloud.google.com/saer/GLOBAL%20PHARMA%20SERVICES/images/search-icon2.png" width="20" height="20" alt="search icon2" />
-            <input name="seach" type="text" value="Rechercher..." />
-          </div>
-          <input class="submit-button"  value="Go" type="submit" />
-        </form>
+                        <form id="search" method="post">
+                           <div class="btn-left-loupe"></div>
+                           <input class="search_data" name="saisie" type="text" placeholder="Mots-Clefs..." required />
+                           <input class="btn-right-fleche" name="go" type="submit" value="" />
+                        </form>
       
                         
       <h3 style="width:auto; height:5px; color:red; text-align:center;">Ce site est en cours de construction </h3>
