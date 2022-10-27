@@ -1,5 +1,5 @@
- /* Importing the fonts */
- @import url(
+/* Importing the fonts */
+@import url(
   'https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
           * {
               margin: 0;
@@ -53,50 +53,62 @@ div {
   }
     
   #search {
-    width:208px;
-    height:24px;
-    background:#F5F2F0;
-    box-shadow:1px 1px 2px rgba(0,0,0,.3) inset
-    }
-    
-    #search .btn-left-loupe {
-    display:block;
-    background:url(http://www.littlemome.fr/template-loupe_png.png) no-repeat 0 0;
-    width:24px;
-    height:24px;
-    float:left;
-    margin:0
-    }
-    
-    #search .btn-right-fleche {
-    display:block;
-    background:url(http://www.missionprovidence.com/french/images/60269144puce-fleche-png.png) no-repeat 0 0;
-    width:24px;
-    height:24px;
-    float:left;
-    margin:6px 0 0
-    }
-    
-    #search input {
-    outline:0;
-    border:0
-    }
-    
-    #search input[type=text] {
-    display:block;
-    font:300 12px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    background:none;
-    text-shadow:0 1px white;
-    float:left;
-    height:24px;
-    width:160px;
-    line-height:25px;
-    color:#666;
-    margin:0
-    }
+    height:125px;
+    overflow:hidden;
+  }
+  .search-wrapper {
+    width:465px;
+    height:45px;
+    background-color:#f0f0f0;
+    margin:43px auto 0;
+    border:1px solid #e9e9e9;
+    -moz-border-radius: 5px; /* FF1+ */
+    -webkit-border-radius: 5px; /* Saf3-4 */
+    border-radius: 5px; /* Opera 10.5, IE 9, Saf5, Chrome */
+    position:relative;
+  }
+  .search-box {
+    width:375px;
+    height:32px;
+    background-color:#fff;
+    margin:5px 7px;
+    border:1px solid #cfcfcf;
+    -moz-border-radius: 5px; /* FF1+ */
+    -webkit-border-radius: 5px; /* Saf3-4 */
+    border-radius: 5px; /* Opera 10.5, IE 9, Saf5, Chrome */
+    position:relative;
+  }
+  .search-box img.search-icon2 {
+    margin:8px 0 0 5px;
+  }
+  .search-box input {
+    border:none;
+    height:30px;
+    width:332px;
+    margin:0;
+    position:absolute;
+    font-size:16px;
+    padding-left:5px;
+    padding-right:5px;
+  }
   
+ input.submit-button {
+    background-image: url("https://storage.cloud.google.com/saer/GLOBAL%20PHARMA%20SERVICES/images/go-button.png") no-repeat;
+    text-indent:-9999px;
+    border:none;
+    height:32px;
+    width:68px;
+    position:absolute;
+    top:6px;
+    left:390px;
+    cursor:pointer;
+   right:15px;
   
+  }
     
+
+
+
  
 
 #main{
@@ -240,7 +252,7 @@ ul {
 	background: #d2d9dd;
 }
 .form-style-5 select{
-	-webkit-appearance: menulist-button;
+-webkit-appearance: menulist-button;
 	height:35px;
 }
 .form-style-5 .number {
